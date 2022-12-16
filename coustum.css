@@ -1,0 +1,63 @@
+
+.c-logo {
+    margin: 10px;
+    width: 187px;
+    padding: 6px;
+}
+
+.background-img-log{
+    /* background-image: url('../assets/img/illustrations/redauto.png'); */
+    background-image: url('../../img/illustrations/redauto.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.tabel-cell {
+    overflow: hidden;
+    width: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* .log-in{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.bx{
+font-size: 20px;
+font-weight: 500;
+}
+
+.starlabel label:after{
+    content: " *";
+    color: var(--star-color);
+}
+
+.text-size{
+    display: inline-block;
+    max-width: 351px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+
+a .tbl-icon {
+    color: var(--text-color);
+}
+
+/* a:hover , a .tbl-icon:hover{
+    color: var(--main-color) !important;
+} */
+
+
+
+
+
+
+.layout-footer-fixed .content-footer {
+    width: 83%;
+    padding: 3px 10px;
+    margin: 3px 0px;
+}
