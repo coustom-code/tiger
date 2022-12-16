@@ -50,8 +50,8 @@
 }
 
 :root {
-  --main-color: #ff3e1d;
-/*   --main-color: #000; */
+/*   --main-color: #ff3e1d; */
+  --main-color: #000;
   --text-color: #697a8d;
   --star-color: #ff0000;
   --head-font-color: #566a7f;
